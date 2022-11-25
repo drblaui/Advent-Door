@@ -4,6 +4,7 @@
   overflow: hidden;
   filter: drop-shadow(0 0 10px white);">
     <v-main>
+      <Snowfall />
       <router-view />
     </v-main>
     <v-footer class="text-center bg-transparent">
@@ -15,6 +16,8 @@
 </template>
 
 <script setup lang="ts">
+import Snowfall from './components/Snowfall.vue';
+
 </script>
 <style>
 </style>

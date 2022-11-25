@@ -1,5 +1,4 @@
 <template>
-	<Snowfall />
 	<v-container>
 		<v-row justify="center" align-self="center">
 			<v-col></v-col>
@@ -19,11 +18,9 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import CalendarDoor from '@/components/CalendarDoor.vue';
-import Snowfall from '@/components/Snowfall.vue';
 export default defineComponent({
 	components: {
 		CalendarDoor,
-		Snowfall
 	},
 	computed: {
 		link(): string {
